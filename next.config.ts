@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: "/dez-moscow-site",
+  assetPrefix: "/dez-moscow-site/",
 };
 
 export default nextConfig;
