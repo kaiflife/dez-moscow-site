@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Кардинально важно: включает генерацию статических HTML-файлов
+  output: "export",
   images: {
-    unoptimized: true, // Обязательно для github.io, иначе билд упадет на компонентах картинок
+    unoptimized: true,
   },
+  basePath: "/dez-moscow-site",
 };
 
 export default nextConfig;
